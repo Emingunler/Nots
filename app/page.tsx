@@ -88,6 +88,7 @@ export default function Home() {
                 Sil
               </button>
             </div>
+      
           ))}
           {notes.length === 0 && (
             <p style={{ textAlign: 'center', color: '#6b7280' }}>Henüz not yok.</p>
